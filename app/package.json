@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.4",
+    "@iconify/vue": "^4.1.1",
+    "@types/gsap": "^3.0.0",
+    "@types/pdfjs-dist": "^2.10.378",
+    "@vueuse/core": "^10.1.0",
+    "@vueuse/nuxt": "^10.1.0",
+    "nuxt": "^3.3.3",
+    "sass": "^1.61.0"
+  },
+  "dependencies": {
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "driver.js": "^0.9.8",
+    "element-plus": "^2.3.4",
+    "gsap": "^3.11.5",
+    "pdfjs-dist": "^3.5.141",
+    "vuedraggable": "^4.1.0"
+  }
+}
